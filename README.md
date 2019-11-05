@@ -50,18 +50,18 @@ Step 11 -- Log into the MobiledgeX Platform.
 docker login -u <your_user_name__remember_it_is_not_your_email> docker.mobiledgex.com
 ```
 
-Step 12 -- 
+Step 12 -- "Tag" your image with a simple name that you can reference later.
 ```
-docker tag
+docker tag <(your application name):(version number)> docker.mobiledgex.net/<your organization name from earlier>/images/<application name>:<version>
 ```
 
 Step 13 -- Push your image to the MobiledgeX Docker Repository.
 ```
-docker push
+docker push docker.mobiledgex.net/<your organization name from earlier>/images/<application name>:<version>
 ```
 Step 14 -- Log out of your MobiledgeX session
 ```
-docker logout
+docker logout docker.mobiledgex.net
 ```
 
 Step 15 -- Log into or pull up the MobiledgeX console https://console.mobiledgex.net/.
