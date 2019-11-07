@@ -48,7 +48,13 @@ docker container run --publish 8090:8000 --detach test:1.0
 ```
 * "publish 8090:8000" -- This tells docker to forward traffic incoming on the host’s port 8090 (your computer), to the container’s port 8000 (containers have their own private set of ports, so if we want to reach one from the network, we have to forward traffic to it in this way; otherwise, firewall rules will prevent all network traffic from reaching your container, as a default security posture).
 * "detach" --Tells Docker to run this container in the background so that you don't have to open a new terminal window
+
 Step 2c -- Type "localhost:8090" into a new browser window and you should see [this](https://drive.google.com/file/d/14t0eEVYtIQVjNQ90StxgV-cC_DAqfBey/view?usp=sharing). Congrats! You have just dockerized a webpage and served it up via NodeJS!
+
+BONUS POINTS -- Type the following into your terminal and you should see index.html printed out in your terminal window. The "curl" command is a faster way to test your website without having to leave the terminal window!
+```
+curl localhost:8090
+```
 
 ## Deploy the "dockerized container" to the MobiledgeX platform and View from Local Browser
 Step 3a -- Log into https://console.mobiledgex.net/. If you do not have an account or are not provided one, please speak to the event organizer or email support@. 
