@@ -131,7 +131,7 @@ Step 3h -- Verify that your Hello World Website has launched
 * Click on APP INSTANCES in the left nav bar. You should see [this](https://drive.google.com/open?id=1BZ37DsZ96QYxLWVqrHpKJDYfcZLHGYPi)
 * Click on the instance that is displayed in the new window
 * Copy out the URI. Scroll down to find the URI. It should look like [this](https://drive.google.com/file/d/1CFU-9rhCC7nkrJUPDPf06JgKYlmk9LsO/view?usp=sharing)
-* Open a new browser to the <URI>:8000 and you should see your [hello world webpage](https://drive.google.com/file/d/1gHb53rEdmur1Pdibk2R0lOzDsRrtv2hx/view?usp=sharing)!
+* Open a new browser to the \<URI\>:8000 and you should see your [hello world webpage](https://drive.google.com/file/d/1gHb53rEdmur1Pdibk2R0lOzDsRrtv2hx/view?usp=sharing)!
 
 Help Tip -- Logging In -- The website, https://console.mobiledgex.net/, uses your "user name" that you created when creating an account so make sure to save this infomation along with your login/pwd, and preferably in a password manager.
 
