@@ -95,37 +95,37 @@ docker logout docker.mobiledgex.net
 Step 3g -- Deploy your backend to a live cloudlet
 * Pull up or login to the MobiledgeX console https://console.mobiledgex.net/ 
 * Create an "App"
-⋅⋅* Click the "Apps" button in the left nav
-⋅⋅* Click the green "NEW" button at the top of the screen.
-⋅⋅* For REGION, select EU
-⋅⋅* For APP NAME, type the same name from Step 3c
-⋅⋅* For APP VERSION, type in the same name from Step 3c
-⋅⋅* For IMAGE PATH, this should auto populate. Assuming what you typed for NAME and VERSION are the same as what you typed in Step 3c, this path should be fine
-⋅⋅* For DEPLOYMENT TYPE, choose DOCKER
-⋅⋅* For DEFAULT FLAVOR, choose "m4.small"
-⋅⋅* For PORTS, type in "8000" and for SELECT PORT, choose TCP. No need to click "ADD PORT" after.
-⋅⋅* NOTE -- If you get a red error message or if you do not see anything pop up after clicking CREATE, you probably typed in something incorrect in the APP NAME or APP VERSION. 
+  * Click the "Apps" button in the left nav
+  * Click the green "NEW" button at the top of the screen.
+  * For REGION, select EU
+  * For APP NAME, type the same name from Step 3c
+  * For APP VERSION, type in the same name from Step 3c
+  * For IMAGE PATH, this should auto populate. Assuming what you typed for NAME and VERSION are the same as what you typed in Step 3c, this path should be fine
+  * For DEPLOYMENT TYPE, choose DOCKER
+  * For DEFAULT FLAVOR, choose "m4.small"
+  * For PORTS, type in "8000" and for SELECT PORT, choose TCP. No need to click "ADD PORT" after.
+  * NOTE -- If you get a red error message or if you do not see anything pop up after clicking CREATE, you probably typed in something incorrect in the APP NAME or APP VERSION. 
 
 * Create a "Cluster Instance"
-⋅⋅* Click the green button called "MANAGE" on the right. It should [look like this](https://drive.google.com/open?id=1QF2KzGC2tZCO2kTWJ0Ngs9Ua9y_xomK3). If you don't see the button, you need to create an organization. Go back and redo STEP 3A. Then come back here. 
-⋅⋅* Click the "CLUSTER INSTANCES" in the new nav bar on the left.
-⋅⋅* Click the green "NEW" button at the top of the screen. 
-⋅⋅* For REGION, select EU
-⋅⋅* For CLUSTER NAME, type "testcluster"
-⋅⋅* For OPERATOR, select XXX -- REMEMBER THIS
-⋅⋅* For CLOUDLET, select YYY -- REMEMBER THIS
-⋅⋅* For DEPLOYMENT TYPE, select DOCKER
-⋅⋅* For IP ACCESS, select DEDICATED 
-⋅⋅* For FLAVOR, select "m4.small"
-⋅⋅* Click the green "CREATE" button at the bottom to create your "Cluster Instance"
+  * Click the green button called "MANAGE" on the right. It should [look like this](https://drive.google.com/open?id=1QF2KzGC2tZCO2kTWJ0Ngs9Ua9y_xomK3). If you don't see the button, you need to create an organization. Go back and redo STEP 3A. Then come back here. 
+  * Click the "CLUSTER INSTANCES" in the new nav bar on the left.
+  * Click the green "NEW" button at the top of the screen. 
+  * For REGION, select EU
+  * For CLUSTER NAME, type "testcluster"
+  * For OPERATOR, select XXX -- REMEMBER THIS
+  * For CLOUDLET, select YYY -- REMEMBER THIS
+  * For DEPLOYMENT TYPE, select DOCKER
+  * For IP ACCESS, select DEDICATED 
+  * For FLAVOR, select "m4.small"
+  * Click the green "CREATE" button at the bottom to create your "Cluster Instance"
 
 * Launch Your App!
-⋅⋅* Click on APPS in the left nav bar
-⋅⋅* Click on the green LAUNCH in the new main window
-⋅⋅* For OPERATOR, select XXX (same as above)
-⋅⋅* For CLOUDLET, select YYY (same as above)
-⋅⋅* For CLUSTER INSTANCE, select "testcluster." Note that this is the same name as what you typed in the previous section
-⋅⋅* Click the green "CREATE" button at the bottom to launch your app!
+  * Click on APPS in the left nav bar
+  * Click on the green LAUNCH in the new main window
+  * For OPERATOR, select XXX (same as above)
+  * For CLOUDLET, select YYY (same as above)
+  * For CLUSTER INSTANCE, select "testcluster." Note that this is the same name as what you typed in the previous section
+  * Click the green "CREATE" button at the bottom to launch your app!
 
 Step 3h -- Verify that your Hello World Website has launched
 * Click on APP INSTANCES in the left nav bar. You should see [this](https://drive.google.com/open?id=1BZ37DsZ96QYxLWVqrHpKJDYfcZLHGYPi)
